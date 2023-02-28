@@ -1,0 +1,394 @@
+libdei80211mr_la-wireless-phymr.lo: wireless-phymr.cc /usr/include/math.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/newlib.h \
+  /usr/include/sys/config.h /usr/include/machine/ieeefp.h \
+  /usr/include/sys/features.h /usr/include/cygwin/config.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/machine/_default_types.h /usr/include/sys/lock.h \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/stddef.h /usr/include/_ansi.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet.h \
+  /usr/include/string.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/string.h /usr/include/assert.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/config.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/cygwin/types.h /usr/include/sys/sysmacros.h \
+  /usr/include/stdint.h /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/byteswap.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/autoconf.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/include/tcl.h \
+  /usr/include/stdio.h /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/stdarg.h \
+  /usr/include/sys/stdio.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/include/tclDecls.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/include/tclPlatDecls.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/otcl-1.14/otcl.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl-config.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tracedvar.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl-mappings.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/getopt.h /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/cygwin/socket.h /usr/include/asm/socket.h \
+  /usr/include/cygwin/if.h /usr/include/sys/socket.h \
+  /usr/include/features.h /usr/include/sys/time.h \
+  /usr/include/cygwin/sys_time.h /usr/include/sys/select.h \
+  /usr/include/time.h /usr/include/machine/time.h \
+  /usr/include/cygwin/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/cygwin/sockios.h /usr/include/sys/uio.h \
+  /usr/include/asm/byteorder.h /usr/include/cygwin/in6.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/scheduler.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/heap.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/object.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/lib/bsd-list.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet-stamp.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/antenna.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/object.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ns-process.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_packets.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_types.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_opt.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/mobilenode.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/trace/trace.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/trace/basetrace.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/tcp/tcp.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/agent.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/connector.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/timer-handler.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/apps/app.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ns-process.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/phy.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/bi-connector.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/channel.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/phy.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/node.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/net-interface.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/energy-model.h \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/cstdlib \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/c++config.h \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/os_defines.h \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/cpu_defines.h \
+  /usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/cstddef \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/tools/rng.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/location.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/rtmodule.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/addr-params.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-hash.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ip.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-hier.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/addr-params.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/route.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/parentnode.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/address.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-addr.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/mac.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/ll.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/link/delay.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/queue/queue.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/connector.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/arp.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/scheduler.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/lanRouter.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/varp.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/marshall.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/topography.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/channel.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/node.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/gridkeeper.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/propagation.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/wireless-phy.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/modulation.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/omni-antenna.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/timer-handler.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet-stamp.h \
+  wireless-phymr.h power_profile.h deipropagation.h \
+  /home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/diffusion/diff_header.h \
+  papropagation.h
+
+/usr/include/math.h:
+
+/usr/include/sys/reent.h:
+
+/usr/include/_ansi.h:
+
+/usr/include/newlib.h:
+
+/usr/include/sys/config.h:
+
+/usr/include/machine/ieeefp.h:
+
+/usr/include/sys/features.h:
+
+/usr/include/cygwin/config.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/machine/_default_types.h:
+
+/usr/include/sys/lock.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/stddef.h:
+
+/usr/include/_ansi.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet.h:
+
+/usr/include/string.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/string.h:
+
+/usr/include/assert.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/config.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/cygwin/types.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/stdint.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/byteswap.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/machine/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/cygwin/stdlib.h:
+
+/usr/include/cygwin/wait.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/autoconf.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/include/tcl.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/stdarg.h:
+
+/usr/include/sys/stdio.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/include/tclDecls.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/include/tclPlatDecls.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/otcl-1.14/otcl.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl-config.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tracedvar.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/tclcl-1.20/tclcl-mappings.h:
+
+/usr/include/strings.h:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/getopt.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/cygwin/in.h:
+
+/usr/include/cygwin/socket.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/cygwin/if.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/cygwin/sys_time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/time.h:
+
+/usr/include/machine/time.h:
+
+/usr/include/cygwin/time.h:
+
+/usr/include/signal.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/cygwin/signal.h:
+
+/usr/include/cygwin/sockios.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/asm/byteorder.h:
+
+/usr/include/cygwin/in6.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/scheduler.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/heap.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/object.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/lib/bsd-list.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet-stamp.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/antenna.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/object.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ns-process.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_packets.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_types.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/dccp/dccp_opt.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/mobilenode.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/trace/trace.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/trace/basetrace.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/tcp/tcp.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/agent.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/connector.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/timer-handler.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/apps/app.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ns-process.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/phy.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/bi-connector.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/channel.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/phy.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/node.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/net-interface.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/energy-model.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/cstdlib:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/c++config.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/os_defines.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/i686-pc-cygwin/bits/cpu_defines.h:
+
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/include/c++/cstddef:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/tools/rng.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/location.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/rtmodule.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/addr-params.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-hash.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/ip.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-hier.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/addr-params.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/route.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/parentnode.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/routing/address.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/classifier/classifier-addr.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/mac.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/ll.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/link/delay.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/queue/queue.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/connector.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/arp.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/scheduler.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/lanRouter.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/varp.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/marshall.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/topography.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/channel.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/node.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/gridkeeper.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/propagation.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mac/wireless-phy.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/modulation.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/mobile/omni-antenna.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/timer-handler.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/common/packet-stamp.h:
+
+wireless-phymr.h:
+
+power_profile.h:
+
+deipropagation.h:
+
+/home/Noureddine/ns-allinone-2.35-RC7/ns-2.35/diffusion/diff_header.h:
+
+papropagation.h:
